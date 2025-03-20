@@ -10,8 +10,7 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
-[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-lohit.vercel.app)](https://portfolio-lohit.vercel.app)
+ [![Website](https://vercel.com/adelanis-projects-6d32dbad/3-d-porfolio/FBQdMY8hRYTmYciMKkPL6ATsBAbX)](https://3-d-porfolio-iota.vercel.app/)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
 <p align="center">A modern, responsive portfolio website showcasing professional experience, projects, and skills. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive 3D elements. ✨</p>
@@ -47,20 +46,20 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+Experience the live portfolio at [https://3-d-porfolio-iota.vercel.app/]( https://3-d-porfolio-iota.vercel.app/)
 
 ## 🛠️ Installation
 
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
+git clone https://github.com/Ecotech88/3D-portfolio
 ```
 
 2️⃣ Navigate to project directory:
 
 ```bash
-cd Portfolio-Website
+cd  3D-portfolio
 ```
 
 3️⃣ Install dependencies:
@@ -130,8 +129,7 @@ npm run dev
 
 <div align="center">
 
-MIT License © [Lohit Kolluri](LICENSE)
-
+ 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
 </div>
