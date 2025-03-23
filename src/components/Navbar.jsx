@@ -23,7 +23,7 @@ const Navbar = () => {
     <ul className={`list-none ${isSecondary ? 'flex sm:hidden' : 'hidden sm:flex'} flex-row gap-6`}>
       {navLinks.map((link) => (
         <li
-          key={link.id}
+          key={link.id} 
           className={`${
             active === link.title ? 'text-white' : isSecondary ? 'text-secondary' : 'text-white'
           } hover:text-white text-[20px] font-medium cursor-pointer`}
