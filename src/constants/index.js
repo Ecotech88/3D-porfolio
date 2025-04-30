@@ -1,5 +1,5 @@
 import {
-  next,
+  next_js,
   python,
   logo,
   javascript,
@@ -50,7 +50,7 @@ export const technologies = [
   { name: "Node JS", icon: nodejs },
   { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
-  { name: "next", icon: next},
+  { name: "next", icon: next_js},
 ];
 
 export const experiences = [

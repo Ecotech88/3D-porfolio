@@ -7,7 +7,7 @@ import eduskill from "./company/eduskill.png";
 import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
-import next from "./tech-stack/next.png";
+import next_js from "./tech-stack/next.png";
 import node from "./tech-stack/node.png";
 import java from "./tech-stack/java.png";
 
@@ -39,7 +39,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
-  next,
+  next_js,
   node,
   mathwork,
   edunet,
