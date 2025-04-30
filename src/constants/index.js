@@ -1,8 +1,7 @@
 import {
-  c,
+  next,
   python,
-  java,
-  cpp,
+  logo,
   javascript,
   html,
   css,
@@ -10,8 +9,7 @@ import {
   tailwind,
   nodejs,
   git,
-  edunet,
-  weatherpedia,
+   weatherpedia,
   termpw,
   payloadmaster,
   threejs,
@@ -19,8 +17,7 @@ import {
   sketcher,
   mathwork,
   CompileVortex,
-  eduskill,
-} from "../assets";
+ } from "../assets";
 
 export const navLinks = [
   {
@@ -38,11 +35,11 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
-];
+  { title: "react", icon: reactjs },
+  { title: "tailwind Css", icon: tailwind },
+  { title: "node js", icon: nodejs },
+  { title: "python js", icon: python },
+ ];
 
 export const technologies = [
   { name: "HTML 5", icon: html },
@@ -53,15 +50,16 @@ export const technologies = [
   { name: "Node JS", icon: nodejs },
   { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
+  { name: "next", icon: next},
 ];
 
 export const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Zety Ltd | AWS Academy | AICTE",
-    icon: eduskill,
+    icon: logo,
     iconBg: "#161329",
-    date: "Oct 2024 - March 2025",
+    date: "Oct 2024 - April 2025",
     points: [
       "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
       "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
@@ -83,7 +81,7 @@ export const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "InnovaTech Ventures Foundation | IBM SkillsBuild",
-    icon: edunet,
+    icon: logo,
     iconBg: "#161329",
     date: "Nov 2022 - May 2023",
     points: [
@@ -108,8 +106,7 @@ export const projects = [
       { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
-  },
+   },
   {
     name: "Terminal Like Portfolio Website",
     description:
@@ -120,8 +117,7 @@ export const projects = [
       { name: "Javascript", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
-  },
+   },
   {
     name: "Mental Health Fitness Tracker",
     description:
@@ -132,9 +128,7 @@ export const projects = [
       { name: "Regression Algorithms", color: "pink-text-gradient" },
     ],
     image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
+    },
   {
     name: "PayloadMaster",
     description:
@@ -143,8 +137,7 @@ export const projects = [
       { name: "shell", color: "blue-text-gradient" },
     ],
     image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
+   },
   {
     name: "CompileVortex",
     description:
@@ -155,8 +148,7 @@ export const projects = [
       { name: "HTML", color: "pink-text-gradient" },
     ],
     image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
+   },
   {
     name: "Sketcher",
     description:
@@ -168,6 +160,5 @@ export const projects = [
     ],
 
     image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
-  },
+   },
 ];

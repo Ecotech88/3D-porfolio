@@ -7,7 +7,12 @@ import eduskill from "./company/eduskill.png";
 import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
+import next from "./tech-stack/next.png";
+import node from "./tech-stack/node.png";
 import java from "./tech-stack/java.png";
+
+
+ 
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
@@ -34,6 +39,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
+  next,
+  node,
   mathwork,
   edunet,
   python,

@@ -33,17 +33,17 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>About <span className='text-[#ec592cf1]'>me.</span> </h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an experienced software-developer with over a half decade of professional expertised in the field.
-        Throughout my career,I have had the privilege of collaborating with prestigious organizations, 
-        contributing to their success and growth.
-         I am looking
+        I am an experienced   <span className='text-[#ec592cf1]'> software-developer </span> with over a half decade of professional expertised in the field.
+        Throughout my career, I have had the privilege of collaborating with prestigious organizations, 
+        contributing to their <span className='text-[#ec592cf1]'>success and growth. </span> 
+          I am looking
         to join a company that values innovation, collaboration, and continuous learning and am
         confident that my enthusiasm and drive will help me succeed in any role that leverages my
         passion for technology.
